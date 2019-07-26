@@ -1,0 +1,12 @@
+dependencies {
+    implementation 'org.springframework:spring-context'
+    implementation 'org.springframework:spring-core'
+    implementation 'javax.validation:validation-api'
+
+    // Needed for Spring Data annotations on domain entities.
+    // This is a shortcut to avoid a mapping step between domain and persistence!
+    implementation 'org.springframework.data:spring-data-commons'
+
+    implementation 'org.springframework.boot:spring-boot-starter-validation'
+}
+
